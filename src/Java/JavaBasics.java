@@ -9,5 +9,8 @@ public class JavaBasics {
 		
 		ReferenceTypes r = new ReferenceTypes();
 		r.referenceTypes();
+		
+		ConcatenatingStrings c = new ConcatenatingStrings();
+		c.concat();
 	}
 }
