@@ -1,6 +1,6 @@
 package Java;
 
-public class Student {
+public class DataTypes {
  public void Details() {
 	 	int StudentAge = 15;
 		double StudentCGPA =4.55;
