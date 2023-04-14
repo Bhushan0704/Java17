@@ -6,5 +6,8 @@ public class JavaBasics {
 		// TODO Auto-generated method stub
 		DataTypes s = new DataTypes();
 		s.Details();
+		
+		ReferenceTypes r = new ReferenceTypes();
+		r.referenceTypes();
 	}
 }
