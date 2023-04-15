@@ -12,5 +12,9 @@ public class JavaBasics {
 		
 		ConcatenatingStrings c = new ConcatenatingStrings();
 		c.concat();
+		
+		//Take User Input
+		UserInput ui = new UserInput();
+		ui.userInput();
 	}
 }
