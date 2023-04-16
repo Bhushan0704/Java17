@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Assestment {
 
 	public void assestment() {
-		// TODO Auto-generated method stub
+		
 		String question = "Which of the following is odd number = Choice a= 2, Choice b = 3, Choice c = 4";
 		String choiceOne = "2";
 		String ChoiceTwo = "3";
@@ -20,14 +20,15 @@ public class Assestment {
 		
 		System.out.println("choose one of the following:" + choiceOne + " " + " "+ ChoiceTwo + " " + ChoiceThree);
 		
-		Scanner sc = new Scanner(System.in);
-		String input = sc.next();
-		
-		if(CorrectAns.contentEquals(input)) {
-			System.out.println("Congrats, your answer is correct");
-		}
-		else {
-			System.out.println("Incorrect Answer, The Correct Answer is" + CorrectAns);
+		try (Scanner sc = new Scanner(System.in)) {
+			String input = sc.next();
+			
+			if(CorrectAns.contentEquals(input)) {
+				System.out.println("Congrats, your answer is correct");
+			}
+			else {
+				System.out.println("Incorrect Answer, The Correct Answer is" + CorrectAns);
+			}
 		}
 	}
 }
