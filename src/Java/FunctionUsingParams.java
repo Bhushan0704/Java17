@@ -8,7 +8,7 @@ public class FunctionUsingParams {
 	System.out.println("Your total meal price is :" + result);
 	}
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		calculateTotalMealPrice(1, 10.80, 20.0);
 	}
 
