@@ -22,7 +22,10 @@ public class JavaBasics {
 //		Operators o = new Operators();
 //		o.operators();
 		
-		Loops l = new Loops();
-		l.loop();
+//		Loops l = new Loops();
+//		l.loop();
+		
+		Assestment a = new Assestment();
+		a.assestment();
 	}
 }
