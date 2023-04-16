@@ -2,6 +2,10 @@ package Java;
 
 public class JavaBasics {
 
+	public static void function() {
+		System.out.println("Hello World");
+	}
+	
 	public static void main(String[] args) {
 		
 		//Uncomment the method you want to Run
@@ -25,7 +29,12 @@ public class JavaBasics {
 //		Loops l = new Loops();
 //		l.loop();
 		
-		Assestment a = new Assestment();
-		a.assestment();
+//		Assestment a = new Assestment();
+//		a.assestment();
+//		
+//		Functions fun = new Functions();
+//		fun.fun();
+		
+		function();
 	}
 }
