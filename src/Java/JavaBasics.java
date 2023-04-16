@@ -3,7 +3,7 @@ package Java;
 public class JavaBasics {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		//Uncomment the method you want to Run
 //		
 //		DataTypes s = new DataTypes();
@@ -19,7 +19,10 @@ public class JavaBasics {
 //		UserInput ui = new UserInput();
 //		ui.userInput();
 		
-		Operators o = new Operators();
-		o.operators();
+//		Operators o = new Operators();
+//		o.operators();
+		
+		Loops l = new Loops();
+		l.loop();
 	}
 }
