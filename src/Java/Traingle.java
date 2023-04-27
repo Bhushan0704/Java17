@@ -7,6 +7,7 @@ public class Traingle {
 		//Constructor may or maynot take inputs
 		//Each param doesnt have same attribute
 		//with params we have appropraite values
+		static int nunOfSides = 3; 
 		double base;
 		double height;
 		double sideLenOne;
@@ -37,6 +38,8 @@ public class Traingle {
 			System.out.println(traingleAArea);
 			//Instances variables
 			System.out.println(traingleA.base);
+			
+			System.out.println(Traingle.nunOfSides);
 		}
 	}
 
